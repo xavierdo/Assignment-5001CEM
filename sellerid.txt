@@ -1,0 +1,21 @@
+seller: shoppingPay
+seller ID: SJo_c3Nob3BwaW5nUGF5
+secret token: kvza9mEtztYV7i-WTtu-REwfilcA
+service URL: http://reply-golf-5000.codio-box.uk/pay
+payment ID: zOFvp10jtbmuGypqz5
+amount: 851
+
+
+seller: shoppingPay
+seller ID: SJo_c3Nob3BwaW5nUGF5
+secret token: kvza9mEtztYV7i-WTtu-REwfilcA
+service URL: http://reply-golf-5000.codio-box.uk/pay
+payment ID: payment1
+amount: 5000
+checksum: 57de49e33bce8046ec44972bd2a334f7
+success_url: http://reply-golf-5000.codio-box.uk/test/callback/success
+cancel_url: http://reply-golf-5000.codio-box.uk/test/callback/cancel
+error_url: http://reply-golf-5000.codio-box.uk/test/callback/error
+
+
+
