@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+        <div class="login-page">
+            <p class="headings" align="center"> Please Register </p>
+            <br>
+            <form action="" method="post">
+                <input class="username" type="text" placeholder="Username" name="Dusername">
+                <br>
+                <br>
+                <input class = "pwd" type="password" placeholder="Password" name="Dpassword">
+                <br>
+                <br>
+       
+                <input class ="btn button" type="submit" value="Register">  
+                 <br>
+                <br>
+               <a  href = "/" class = "btn button" stype = "text">Already registered?</a>
+            </form>
+            <br>
+            
+        </div>
+    </body>
+</html>

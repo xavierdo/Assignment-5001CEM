@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+        <div class="add-page">
+            <p class="headings" align="center"> Add New Book</p>
+            <br>
+             <! –– below are the placeholders for the inputs ––>
+            <form action="" method="post">
+                <input class="id" type="text" placeholder="EAN Number" name="ID">
+                <br>              
+                <input class = "title" type="text" placeholder="Title" name="Title">
+                <br>
+                <input class="author" type="text" placeholder="Author" name="Author">
+                <br>
+                <input class ="description" type="text" placeholder="Description" name="Description" required minlength="15" maxlength="100" size="20">
+                <br>
+                <input class = "image" type="file" id="avatar" name="Image" src="{{ url_for('static', filename=['product-images']) }}">
+                <br>
+                <input class = "price" type="integer" placeholder="Price" name="Price">
+                <br>
+                <input class ="btn button" type="submit" value="Add Book"> 
+                <br>
+            </form>
+           
+        </div>
+    </body>
+</html>
