@@ -1,0 +1,52 @@
+##########################
+File path on Github
+##########################
+
+--->path: xavierdo/Assignment-5001CEM
+--->click on Code
+--->Download Zip file
+--->The file name will be like this: Assignment-5001CEM-master
+--->Extract the file
+
+
+##################
+Copy file to Codio
+##################
+
+---> open Codio
+---> Right click on Master and Upload
+---> drag and drop the file into upload and close
+
+##############
+activate venv
+##############
+
+---> On Codio open the terminal
+---> type: . venv/bin/activate
+---> cd Assignment-5001CEM-master
+---> it will show like this: (venv) codio@malta-segment:~/workspace/Assignment-5001CEM-master$
+---> it will be different depending on the name you gave in your Codio
+
+###################
+activate local host
+###################
+
+---> export FLASK_APP=main.py
+---> flask run --host=0.0.0.0
+
+######################
+IT will show like this
+######################
+
+* Serving Flask app 'main.py' (lazy loading)
+* Environment: production
+  WARNING: This is a development server. Do not use it in a production deployment.
+  Use a production WSGI server instead.
+* Debug mode: off
+* Running on all addresses.
+  WARNING: This is a development server. Do not use it in a production deployment.
+* Running on http://10.222.81.51:5000/ (Press CTRL+C to quit)
+
+Then your app is running
+---> on Codio click Box URL
+---> the website will open.
